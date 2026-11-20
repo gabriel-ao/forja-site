@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forja — cortes de vídeo para os seus canais</title>
+<meta name="description" content="Forja organiza cortes de vídeo e publica nos seus canais do TikTok, no horário que você escolher.">
+<link rel="icon" href="forja-icone-1024.png">
+<style>
+  :root { --fundo:#ffffff; --texto:#1b1b1f; --suave:#5d5d66; --acento:#e62e4d; --borda:#e4e4ea; }
+  @media (prefers-color-scheme: dark) { :root { --fundo:#141417; --texto:#f2f2f5; --suave:#a5a5b0; --acento:#ff5c77; --borda:#2a2a31; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--fundo); color:var(--texto); font:16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header, main, footer { max-width: 860px; margin: 0 auto; padding: 0 16px; }
+  header { display:flex; align-items:center; gap:12px; padding-top:28px; }
+  header img { width:44px; height:44px; border-radius:10px; }
+  header strong { font-size:22px; letter-spacing:.5px; }
+  nav { margin-left:auto; display:flex; gap:16px; flex-wrap:wrap; }
+  a { color: var(--acento); }
+  h1 { font-size: clamp(28px, 5vw, 42px); line-height:1.15; margin: 48px 0 12px; }
+  .sub { color: var(--suave); font-size: 18px; max-width: 640px; }
+  .passos { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:16px; margin: 36px 0; }
+  .passo { border:1px solid var(--borda); border-radius:12px; padding:18px; }
+  .passo b { display:block; margin-bottom:6px; }
+  section { margin: 40px 0; }
+  footer { border-top:1px solid var(--borda); margin-top:56px; padding-top:20px; padding-bottom:40px; color:var(--suave); font-size:14px; display:flex; gap:16px; flex-wrap:wrap; }
+</style>
+</head>
+<body>
+<header>
+  <img src="forja-icone-1024.png" alt="">
+  <strong>Forja</strong>
+  <nav><a href="termos.html">Termos de Uso</a><a href="privacidade.html">Política de Privacidade</a></nav>
+</header>
+<main>
+  <h1>Cortes de vídeo prontos e publicados nos seus canais.</h1>
+  <p class="sub">A Forja transforma um vídeo longo em cortes curtos, organiza esses cortes por canal e publica no TikTok no dia e horário que você escolher.</p>
+
+  <div class="passos">
+    <div class="passo"><b>1. Corta</b>Você indica o vídeo, quantos cortes quer e a duração. A Forja gera os cortes, também em formato vertical.</div>
+    <div class="passo"><b>2. Organiza</b>Cada corte é vinculado a um ou mais canais, com histórico do que foi planejado e publicado.</div>
+    <div class="passo"><b>3. Publica</b>Você conecta a sua conta do TikTok, escolhe legenda, privacidade e horário, e a Forja publica pela API oficial do TikTok.</div>
+  </div>
+
+  <section>
+    <h2>Como funciona a conexão com o TikTok</h2>
+    <p>A Forja usa o Login Kit e a Content Posting API oficiais do TikTok. Você autoriza a sua conta pela página do próprio TikTok; a Forja nunca vê nem guarda a sua senha. Antes de cada publicação você escolhe quem pode ver o vídeo e se permite comentários, dueto e costura, e pode desconectar a conta a qualquer momento.</p>
+  </section>
+
+  <section lang="en">
+    <h2>About Forja (English)</h2>
+    <p>Forja turns long videos into short clips, organizes them by channel and publishes them to TikTok at the date and time the user chooses, using TikTok's official Login Kit and Content Posting API. Users authorize their own account on TikTok's page; Forja never sees or stores passwords. Before each post the user picks the privacy level and whether comments, duets and stitches are allowed, and can disconnect the account at any time.</p>
+  </section>
+</main>
+<footer>
+  <span>© 2026 Forja</span>
+  <a href="termos.html">Termos de Uso / Terms of Service</a>
+  <a href="privacidade.html">Política de Privacidade / Privacy Policy</a>
+</footer>
+</body>
+</html>

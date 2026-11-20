@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — Forja</title>
+<link rel="icon" href="forja-icone-1024.png">
+<style>
+  :root { --fundo:#ffffff; --texto:#1b1b1f; --suave:#5d5d66; --acento:#e62e4d; --borda:#e4e4ea; }
+  @media (prefers-color-scheme: dark) { :root { --fundo:#141417; --texto:#f2f2f5; --suave:#a5a5b0; --acento:#ff5c77; --borda:#2a2a31; } }
+  body { margin:0; background:var(--fundo); color:var(--texto); font:16px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 56px; }
+  a { color: var(--acento); }
+  h1 { margin-top: 8px; }
+  h2 { margin-top: 32px; font-size: 20px; }
+  .meta { color: var(--suave); }
+  hr { border: 0; border-top: 1px solid var(--borda); margin: 40px 0; }
+</style>
+</head>
+<body>
+<main>
+  <p><a href="index.html">← Forja</a></p>
+  <h1>Política de Privacidade</h1>
+  <p class="meta">Última atualização: 20 de novembro de 2026</p>
+
+  <h2>1. Quais dados a Forja usa</h2>
+  <p>Quando o usuário conecta uma conta do TikTok, a Forja recebe do TikTok, com a autorização do usuário:</p>
+  <ul>
+    <li>o identificador da conta (open_id), o nome de usuário e o apelido públicos;</li>
+    <li>os tokens de acesso necessários para publicar vídeos em nome do usuário (permissões <code>user.info.basic</code> e <code>video.publish</code>).</li>
+  </ul>
+  <p>A Forja <strong>não</strong> recebe nem guarda a senha do TikTok, e não lê mensagens, seguidores ou outros dados da conta.</p>
+
+  <h2>2. Para que os dados são usados</h2>
+  <p>Somente para mostrar ao usuário qual conta está conectada e para publicar os vídeos que o próprio usuário agendou, com a legenda e a privacidade que ele escolheu.</p>
+
+  <h2>3. Onde os dados ficam</h2>
+  <p>A Forja roda no computador do próprio usuário. Os tokens do TikTok ficam guardados nesse computador, cifrados (AES-256-GCM). Os vídeos e cortes também ficam no computador do usuário e só são enviados ao TikTok no momento da publicação que o usuário agendou.</p>
+
+  <h2>4. Compartilhamento</h2>
+  <p>A Forja não vende nem compartilha dados com terceiros. Os vídeos são enviados apenas ao TikTok, pelas APIs oficiais, quando o usuário agenda uma publicação.</p>
+
+  <h2>5. Como apagar os dados</h2>
+  <p>O usuário pode desconectar a conta a qualquer momento na Forja (botão "Desconectar"), o que apaga os tokens guardados. Também é possível remover o acesso nas configurações do TikTok, em Segurança → Gerenciar permissões de apps.</p>
+
+  <h2>6. Contato</h2>
+  <p>Pedidos e dúvidas sobre privacidade: <a href="https://github.com/gabriel-ao/forja-site/issues">github.com/gabriel-ao/forja-site/issues</a></p>
+
+  <hr>
+
+  <section lang="en">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: November 20, 2026</p>
+    <h2>1. Data Forja uses</h2>
+    <p>When a user connects a TikTok account, Forja receives from TikTok, with the user's authorization:</p>
+    <ul>
+      <li>the account identifier (open_id), public username and display name;</li>
+      <li>the access tokens needed to publish videos on the user's behalf (scopes <code>user.info.basic</code> and <code>video.publish</code>).</li>
+    </ul>
+    <p>Forja does <strong>not</strong> receive or store the TikTok password, and does not read messages, followers or other account data.</p>
+    <h2>2. How data is used</h2>
+    <p>Only to show the user which account is connected and to publish the videos the user scheduled, with the caption and privacy level the user chose.</p>
+    <h2>3. Where data is stored</h2>
+    <p>Forja runs on the user's own computer. TikTok tokens are stored on that computer, encrypted (AES-256-GCM). Videos and clips also stay on the user's computer and are only sent to TikTok when a post the user scheduled is published.</p>
+    <h2>4. Sharing</h2>
+    <p>Forja does not sell or share data with third parties. Videos are only sent to TikTok, through its official APIs, when the user schedules a post.</p>
+    <h2>5. Deleting data</h2>
+    <p>Users can disconnect their account at any time in Forja ("Disconnect" button), which deletes the stored tokens. Access can also be removed in TikTok's settings under Security → Manage app permissions.</p>
+    <h2>6. Contact</h2>
+    <p>Privacy requests and questions: <a href="https://github.com/gabriel-ao/forja-site/issues">github.com/gabriel-ao/forja-site/issues</a></p>
+  </section>
+</main>
+</body>
+</html>
